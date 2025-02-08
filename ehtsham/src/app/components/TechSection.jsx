@@ -1,23 +1,24 @@
 import Image from 'next/image';
 
+
 const technologies = [
-    { name: 'AWS', src: '/aws.png' },
-    { name: 'Django', src: '/django.png' },
-    { name: 'GraphQL', src: '/graphql.png' },
-    { name: 'Python', src: '/python.png' },
-    { name: 'Scitkit-Learn', src: '/sklearn.png' },
-    { name: 'PyTorch', src: '/PyTorch.png' },
-    { name: 'Firebase', src: '/firebase.png' },
-    { name: 'JavaScript', src: '/javascript.png' },
-    { name: 'Next.js', src: '/nextjs.png' },
-    { name: 'MongoDB', src: '/mongodb.png' },
-    { name: 'Node.js', src: '/nodejs.png' },
-    { name: 'PostgreSQL', src: '/postgresql.png' },
-    { name: 'React', src: '/react.png' },
-    { name: 'Tailwind CSS', src: '/tailwind.png' },
-    { name: 'TensorFlow', src: '/tensorflow.png' },
-    { name: 'MySQL', src: '/mysql.png' },
-    { name: 'NestJS', src: '/nestjs.png' },
+    { name: 'Numpy', src: '/numpy-1.svg' },
+    { name: 'Django', src: '/django.svg' },
+    { name: 'GraphQL', src: '/graphql-logo-2.svg' },
+    { name: 'Python', src: '/python-4.svg' },
+    { name: 'Scitkit-Learn', src: '/scikit-learn.svg' },
+    { name: 'PyTorch', src: '/pytorch-icon.svg' },
+    { name: 'Firebase', src: '/firebase-1.svg' },
+    { name: 'JavaScript', src: '/logo-javascript.svg' },
+    { name: 'MongoDB', src: '/mongodb-icon-1.svg' },
+    { name: 'Node.js', src: '/Node.js.svg' },
+    { name: 'PostgreSQL', src: '/postgresql.svg' },
+    { name: 'Tailwind CSS', src: '/tailwind-css-2.svg' },
+    { name: 'TensorFlow', src: '/tensorflow-icon.svg' },
+    { name: 'MySQL', src: '/mysql-3.svg' },
+    { name: 'FastAPI', src: '/FastAPI.svg' },
+    { name: 'LangChain', src: '/langchain-icon-seeklogo.svg' },
+    { name: 'AWS', src: '/amazon-web-services.svg' },
 ];
 
 export default function TechnologySection() {
@@ -25,7 +26,7 @@ export default function TechnologySection() {
         <section className="bg-black text-white py-12">
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl font-semibold text-center mb-8">
-                    Technologies We Are Working With
+                    Technologies I'm Working With
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-center items-center">
                     {technologies.map((tech, index) => (
