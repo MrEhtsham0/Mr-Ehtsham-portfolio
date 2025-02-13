@@ -1,6 +1,5 @@
+"use client";
 import Image from 'next/image';
-
-
 const technologies = [
     { name: 'Numpy', src: '/numpy-1.svg' },
     { name: 'Django', src: '/django.svg' },

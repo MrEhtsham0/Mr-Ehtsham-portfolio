@@ -6,6 +6,10 @@ import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 import TechnologySection from "./components/TechSection";
+import TestimonialSection from "./components/TestimonialSection";
+import SoftSkillsAndTips from "./components/SoftSkillsAndTips";
+import dynamic from 'next/dynamic'
+import CareerTimeline from "./components/CarrierTimeline";
 
 export default function Home() {
   return (
@@ -16,7 +20,10 @@ export default function Home() {
         <AchievementsSection />
         <TechnologySection />
         <AboutSection />
+        <CareerTimeline />
+        <SoftSkillsAndTips />
         <ProjectsSection />
+        <TestimonialSection />
         <EmailSection />
       </div>
       <Footer />
