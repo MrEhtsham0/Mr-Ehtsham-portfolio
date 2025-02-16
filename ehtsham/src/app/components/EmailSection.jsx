@@ -55,29 +55,10 @@ const EmailSection = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Transform Your Vision into Reality
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 mb-4">
-            Your vision deserves solutions that make an impact.
-          </p>
+
           <p className="text-lg md:text-xl text-gray-300 mb-8">
             Let's connect and turn your digital goals into reality.
           </p>
-
-          <div className="flex justify-center gap-4 mb-16">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-lg transition-colors"
-            >
-              Let's Talk
-            </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-colors"
-            >
-              See Work
-            </motion.button>
-          </div>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-10">
@@ -174,7 +155,7 @@ const EmailSection = () => {
                     name="message"
                     id="message"
                     required
-                    className="bg-[#22232A] border border-[#33353F] placeholder-[#9CA2A9] text-white text-sm rounded-lg block w-full p-3 focus:ring-2 focus:ring-purple-500"
+                    className="bg-[#22232A] border border-[#33353F] placeholder-[#9CA2A9] text-white text-sm rounded-lg block w-full p-8 focus:ring-2 focus:ring-purple-500"
                     placeholder="Let's talk about..."
                   />
                 </div>

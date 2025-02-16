@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image';
+
 const technologies = [
     { name: 'Numpy', src: 'svg/numpy-1.svg' },
     { name: 'Django', src: 'svg/django.svg' },
@@ -34,7 +35,6 @@ export default function TechnologySection() {
                                 alt={tech.name}
                                 width={60}
                                 height={60}
-                                className="grayscale hover:grayscale-0 transition-all duration-300"
                             />
                             <p className="mt-2 text-sm text-gray-400">{tech.name}</p>
                         </div>
