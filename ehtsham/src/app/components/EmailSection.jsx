@@ -2,8 +2,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone } from "lucide-react";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import GithubIcon from "../../../public/svg/github-icon.svg";
+import LinkedinIcon from "../../../public/svg/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -42,7 +42,7 @@ const EmailSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen p-8 bg-gray-900">
+    <section id="contact" className="relative min-h-screen p-8 bg-gray-900">
       <div className="absolute inset-0 bg-gradient-to-br from-[#1e1f29] via-[#131418] to-[#0a0b0f] opacity-50 blur-[120px]" />
 
       <div className="max-w-6xl mx-auto relative z-10">

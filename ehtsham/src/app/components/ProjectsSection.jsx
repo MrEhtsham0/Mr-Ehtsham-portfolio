@@ -7,57 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Next Js Portfolio",
+    description: "Portfolio which has my Professional Information,Projects and Experience",
+    image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/MrEhtsham0/Mr-Ehtsham-portfolio/tree/main/ehtsham",
+    previewUrl: "https://github.com/MrEhtsham0/Mr-Ehtsham-portfolio/tree/main/ehtsham",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Vocal Molder",
+    description: "Convert Text to Voice,Voice to Text,Video Voice Over in Multi-Language using Python Deep Learning",
+    image: "/images/projects/vocalmolder.png",
+    tag: ["All", "AI"],
+    gitUrl: "https://vocalmolder-frontend.vercel.app/",
+    previewUrl: "https://vocalmolder-frontend.vercel.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    title: "Project Automation using Agentic AI",
+    description: "Project Automation using Agentic AI(LangChain & LangGraph)",
+    image: "/images/projects/Agent.jfif",
+    tag: ["All", "AI"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Ai Chatbots RAG Apps + Vector Databases",
     description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    image: "/images/projects/rag.png",
+    tag: ["All", "AI"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "ECG Detector using TensorFlow+Next JS",
+    description: "Deep Learning Model which Detect ECG Diseases using ECG Signals files and ECG images",
+    image: "/images/projects/ecg-3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
+    title: "Plant Disease Detection Model using Transfer Learning",
+    description: "Model which Detect Plant's Diseases using Transfer Learning",
+    image: "/images/projects/cnn.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/MrEhtsham0/PlantsVillage_Classification",
+    previewUrl: "https://github.com/MrEhtsham0/PlantsVillage_Classification",
   },
 ];
 
@@ -97,8 +97,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="AI"
+          isSelected={tag === "AI"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

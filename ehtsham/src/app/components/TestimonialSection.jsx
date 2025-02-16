@@ -7,7 +7,7 @@ const testimonials = [
         country: "USA",
         review:
             "This seller did a very good job with a Desktop GUI Executable Chatbot. He was able to integrate all the functionality that I required. He has incredible attention to detail and professionalism. His proactive communication and quickness to respond made working with him smooth and enjoyable. Highly recommend!",
-        flag: "/united-states-flag-icon.svg",
+        flag: "svg/united-states-flag-icon.svg",
     },
     {
         name: "Landdrew",
@@ -15,7 +15,7 @@ const testimonials = [
         country: "USA",
         review:
             "This seller did a very good job with a Desktop GUI Executable Chatbot. He was able to integrate all the functionality that I required. He has incredible attention to detail and professionalism. His proactive communication and quickness to respond made working with him smooth and enjoyable. Highly recommend!",
-        flag: "/united-states-flag-icon.svg",
+        flag: "svg/united-states-flag-icon.svg",
     },
     {
         name: "Landdrew",
@@ -23,7 +23,7 @@ const testimonials = [
         country: "USA",
         review:
             "This seller did a very good job with a Desktop GUI Executable Chatbot. He was able to integrate all the functionality that I required. He has incredible attention to detail and professionalism. His proactive communication and quickness to respond made working with him smooth and enjoyable. Highly recommend!",
-        flag: "/united-states-flag-icon.svg",
+        flag: "svg/united-states-flag-icon.svg",
     },
 ];
 

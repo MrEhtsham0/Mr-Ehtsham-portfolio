@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin, Mail, Phone, ExternalLink } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
   // Custom Fiverr SVG icon component

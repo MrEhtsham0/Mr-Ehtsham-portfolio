@@ -11,25 +11,25 @@ const CareerTimeline = () => {
             title: "Generative AI & Agentic AI",
             company: "Prograsec",
             description:
-                "I have Explored Generative AI using LangChain,LangGraph and LangSmith.",
+                "I have explored Generative AI using LangChain, LangGraph, and LangSmith.",
             skills: ["LangChain", "LangGraph", "LangSmith", "HuggingFace"],
             icon: Briefcase,
         },
         {
             year: "2023 - 2024",
-            title: "Deep Learning Using TensorFLow",
-            company: "Youtube/Udemy Courses",
+            title: "Deep Learning Using TensorFlow",
+            company: "YouTube/Udemy Courses",
             description:
-                "I have Explored Neural Networks using TensorFLow & PyTorch(ANN,CNN,TensorFlow,RNN,LSTM,Transformers",
-            skills: ["Keras", "TensorFlow", "Pytorch"],
+                "I have explored Neural Networks using TensorFlow & PyTorch (ANN, CNN, RNN, LSTM, Transformers).",
+            skills: ["Keras", "TensorFlow", "PyTorch"],
             icon: Award,
         },
         {
-            year: "2023-2024",
-            title: "Python,OOP,Numpy,EDA,Machine Learning",
+            year: "2023 - 2024",
+            title: "Python, OOP, Numpy, EDA, Machine Learning",
             company: "Soft AI",
             description:
-                "I have Explore the Python and Python Libraries.I have Explored Exploratory Data Analysis using  Pandas and Statistics.",
+                "I have explored Python and its libraries, as well as performed Exploratory Data Analysis using Pandas and Statistics.",
             skills: ["Python", "Pandas", "Statistics"],
             icon: Calendar,
         },
@@ -49,8 +49,7 @@ const CareerTimeline = () => {
                         Career Journey
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                        Exploring my professional evolution through key roles and
-                        achievements.
+                        Exploring my professional evolution through key roles and achievements.
                     </p>
                 </motion.div>
 
@@ -67,7 +66,7 @@ const CareerTimeline = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.2 }}
-                            className={`relative flex md:items-center min-h-[250px] ${index % 2 === 0 ? "md:flex-row-reverse" : ""
+                            className={`relative flex flex-col md:flex-row items-center md:items-start min-h-[250px] ${index % 2 === 0 ? "md:flex-row-reverse" : ""
                                 }`}
                         >
                             {/* Content Box */}

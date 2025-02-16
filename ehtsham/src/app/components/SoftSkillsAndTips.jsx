@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
 import { Users, Brain, Clock, Code, BookOpen, Eye } from "lucide-react";
 
