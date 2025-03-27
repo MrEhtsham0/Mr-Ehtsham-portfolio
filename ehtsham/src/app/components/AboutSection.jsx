@@ -35,11 +35,11 @@ const TAB_DATA = [
     id: "certifications",
     icon: <Award className="w-5 h-5" />,
     content: [
-      "AWS Cloud Practitioner",
       "Complete Python Pro Bootcamp",
-      "Zero to Mastery Academy",
+      "Machine Learning by Zero to Mastery Academy",
       "NLP by vidhya Analytics",
-      "LangChain & LangGraph by LangChain Academy"
+      "LangChain & LangGraph by LangChain Academy",
+      "Python Backend Development using FastAPI & Django"
     ]
   }
 ];
@@ -103,7 +103,7 @@ const AboutSection = () => {
             <h2 className="text-4xl font-bold mb-6 text-white">
               About Me
             </h2>
-            <p className="text-lg text-white leading-relaxed mb-8">
+            <p className="text-sm text-white leading-relaxed mb-8 text-justify">
               I am an AI Engineer with a passion for creating AI-based web applications. I have experience working with Python, Machine Learning, and Deep Learning using TensorFlow and PyTorch. I specialize in API development with FastAPI and Django Rest Framework and have expertise in SQL, NoSQL, and Graph Databases. Additionally, I have experience in AWS Cloud Management, including deploying and managing applications on AWS. I also work with Vercel for frontend and API deployments, ensuring scalable and efficient solutions.
             </p>
 

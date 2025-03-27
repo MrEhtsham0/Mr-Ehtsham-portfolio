@@ -48,7 +48,7 @@ export default function TestimonialSection() {
                                 </div>
                             </div>
 
-                            <p className="mt-4 text-gray-300">{testimonial.review}</p>
+                            <p className="mt-4 text-gray-300 text-justify">{testimonial.review}</p>
 
                             {/* Added two-line gap before country */}
                             <div className="mt-6 flex items-center gap-2">
