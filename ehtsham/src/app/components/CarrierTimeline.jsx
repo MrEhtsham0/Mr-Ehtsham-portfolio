@@ -11,8 +11,17 @@ const CareerTimeline = () => {
             title: "Generative AI & Agentic AI",
             company: "Prograsec",
             description:
-                "I have explored Generative AI using LangChain, LangGraph, and LangSmith.",
+                "I have explored Conversational  and Agentic AI using LangChain, LangGraph, and LangSmith.",
             skills: ["LangChain", "LangGraph", "LangSmith", "HuggingFace"],
+            icon: Briefcase,
+        },
+        {
+            year: "2024 - Present",
+            title: "Python Backend Development",
+            company: "Prograsec",
+            description:
+                "I have explored API Development,Authentication and Authorization using FastAPI Django and ORM Database Management Libraries.",
+            skills: ["FastAPI", "Django Restframework", "Flask"],
             icon: Briefcase,
         },
         {
@@ -30,7 +39,7 @@ const CareerTimeline = () => {
             company: "Soft AI",
             description:
                 "I have explored Python and its libraries, as well as performed Exploratory Data Analysis using Pandas and Statistics.",
-            skills: ["Python", "Pandas", "Statistics"],
+            skills: ["Python", "Pandas", "Numpy", "Statistics"],
             icon: Calendar,
         },
     ];

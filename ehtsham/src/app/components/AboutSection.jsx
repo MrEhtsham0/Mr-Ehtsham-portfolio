@@ -15,9 +15,7 @@ const TAB_DATA = [
       "NLP & Generative AI",
       "Databases (Sql, NoSql, Graph)",
       "Agentic AI (LangChain & LangGraph)",
-      "Streamlit & Gradio UI",
-      "MLOps",
-      "AWS Cloud Management"
+      "Quick Demo UIs by Streamlit"
     ]
   },
   {
@@ -104,8 +102,7 @@ const AboutSection = () => {
               About Me
             </h2>
             <p className="text-sm text-white leading-relaxed mb-8 text-justify">
-              I am an AI Engineer with a passion for creating AI-based web applications. I have experience working with Python, Machine Learning, and Deep Learning using TensorFlow and PyTorch. I specialize in API development with FastAPI and Django Rest Framework and have expertise in SQL, NoSQL, and Graph Databases. Additionally, I have experience in AWS Cloud Management, including deploying and managing applications on AWS. I also work with Vercel for frontend and API deployments, ensuring scalable and efficient solutions.
-            </p>
+              "I am an AI Engineer with a passion for creating AI-based web applications. I have experience working with Python, Machine Learning, Deep Learning and Natural Language Processing. I specialize in API development with FastAPI and Django Rest Framework and have expertise in SQL, NoSQL, and Graph Databases. Additionally, I have experience in Agentic and Conversational AI by using LangChain and LangGraph, enabling the development of intelligent and interactive AI systems."  </p>
 
             <div className="flex flex-row flex-wrap gap-2 mb-8">
               {TAB_DATA.map((item) => (

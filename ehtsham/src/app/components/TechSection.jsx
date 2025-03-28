@@ -10,14 +10,14 @@ const technologies = [
     { name: 'Firebase', src: 'svg/firebase-1.svg' },
     { name: 'JavaScript', src: 'svg/logo-javascript.svg' },
     { name: 'MongoDB', src: 'svg/mongodb-icon-1.svg' },
-    { name: 'Node.js', src: 'svg/Node.js.svg' },
+    // { name: 'Node.js', src: 'svg/Node.js.svg' },
     { name: 'PostgreSQL', src: 'svg/postgresql.svg' },
     { name: 'Tailwind CSS', src: 'svg/tailwind-css-2.svg' },
     { name: 'TensorFlow', src: 'svg/tensorflow-icon.svg' },
     { name: 'MySQL', src: 'svg/mysql-3.svg' },
     { name: 'FastAPI', src: 'svg/FastAPI.svg' },
     { name: 'LangChain', src: 'svg/langchain-icon-seeklogo.svg' },
-    { name: 'AWS', src: 'svg/amazon-web-services.svg' },
+    // { name: 'AWS', src: 'svg/amazon-web-services.svg' },
 ];
 
 export default function TechnologySection() {
